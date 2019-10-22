@@ -1,6 +1,6 @@
 # Singly Linked List
 A singly liked list (SLL) has one link per node. It has two parts, one part contains data and other contains address of next node. The structure of a node in a SLL is given as in C:
-struct node
+struct node 
 {
     int data;
     struct node *next;
@@ -12,6 +12,6 @@ struct node
     struct node *prev;   
     int data;  
     struct node *next;   
-}   
+};   
 # Circular Linked List
 Circular Linked List is a variation of Linked list in which the first element points to the last element and the last element points to the first element. Both Singly Linked List and Doubly Linked List can be made into a circular linked list.
